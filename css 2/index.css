@@ -1,0 +1,69 @@
+#page {
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+.top span {
+    background-color: blueviolet;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    display: flex;
+    /* align-items: stretch; */
+    height: 80vh;
+}
+.left {
+    background-color: darksalmon;
+}
+#gold div{
+    background-color: rgb(179, 138, 35);
+    margin: 5px 0px;
+    width: 20vw
+
+}
+.left div {
+    /* margin: 5px 0px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* width: 20vw */
+}
+#lm {
+    /* background-color: darksalmon; */
+    /* background-color: none; */
+}
+#main {
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+}
+#leftB {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+#orange {
+    background-color: orange;
+    /* padding: none; */
+    /* margin: none; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom {
+    background-color:indianred;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}

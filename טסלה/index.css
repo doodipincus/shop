@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./assets/fonts/GothamBook.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    /* font-weight: 500; */
+    font-size: 14px;
+}
+body {
+    background-image: url('https://digitalassets.tesla.com/tesla-contents/image/upload/h_2560,w_4096,c_fit,f_auto,q_auto:best/Homepage-Model-3-Desktop-LHD');background-size: cover;
+    font-family: 'MyFont';
+}
+a {
+    text-decoration: none;
+    padding: 4px 8px 4px 8px;
+    font-weight: 400;
+
+}
+a:hover {
+    background: rgba(146, 144, 144, 0.3);
+    border-radius: 3px;
+}
+a:link {
+    color: #171a20;
+}
+a:visited {
+    color: #171a20;
+}
+a:hover {
+    color: #171a20;
+}
+a:active {
+    color: #171a20;
+}
+#test a{
+    background: none;
+    text-decoration: underline;
+    font-size: x-small;
+    /* font-family: MyFont; */
+
+}
+#test {
+    text-align: center;
+    font-weight: none;
+}
+#information {
+    text-align: center;
+    font-size: xX-small;
+    color: rgb(39, 39, 39);
+
+}
+.links {
+    display: flex;
+    font-size: x-small;
+}
+.links #a {
+    text-align: center;
+}
+#menu {
+    padding: 4px 8px 4px 8px;
+    font-weight: 400;
+}
+#menu:hover {
+    background: rgba(146, 144, 144, 0.3);
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+#model {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    /* font-size: 14px; */
+    color: #393c41;
+
+}
+#stock {
+    background: rgb(238, 227, 227);
+    color: #777777;
+    padding: 5px 50px 5px 50px;
+    border-radius: 3px;
+    /* font-family: MyFont; */
+
+
+}
+#order {
+    background: rgb(58, 55, 55);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 3px;
+    /* font-family: MyFont; */
+}
+#caftorim {
+    text-align: center;
+}
+#b {
+    /* padding-left: 150px; */
+    position: relative;
+    left: 175px;
+}
+/* #a {
+    text-align: center;
+} */

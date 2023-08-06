@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lumanosimo&family=Pangolin&display=swap');
+h1 {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: 'Lugrasimo', cursive;
+}
+#kishurim {
+    background: rgb(78, 78, 78);
+    color: rgb(250, 216, 164);
+    text-align: center;
+
+}
+#about {
+    color: red;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: medium;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}
+#my {
+    text-align: center;
+    background: rgb(90, 100, 100);
+    color: rgb(250, 216, 164);
+    font-family: 'Pangolin', cursive;
+    font-size: x-large;
+
+}
+#purpel {
+    background-color: rgb(69, 1, 255);
+}
+#yellow {
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    box-shadow: 10px 15px 10px black;
+}

@@ -1,0 +1,32 @@
+#father {
+    display: flex;
+    /* flex-direction: ; */
+    flex-wrap: wrap;
+}
+
+#userCard {
+    background-color: lightblue;
+    display: inline;
+    border-width: 10px;
+    border-color: black;
+    /* bor */
+    /* black, 1px; */
+    width: '350px';
+    margin: 8;
+    border-radius: 20px;
+
+}
+
+#pEmail {
+    font-size: small;
+    /*לא מקטין*/
+}
+
+button {
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+}
+img {
+    border-radius: 50%;
+}

@@ -1,0 +1,172 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+input {
+    background-color: rgb(32, 35, 42);
+    border: none;
+    color: white;
+}
+a:hover {
+    color:  rgb(97, 218, 251);
+}
+#page {
+    background-color: rgb(40, 44, 52);
+    /* background-image: url(); */
+    /* background-color: rgb(53, 50, 50); */
+}
+header {
+    position: fixed;
+    width: 100vw;
+}
+#herd {
+    background-color: rgb(22, 24, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    font-size: small;
+    margin: 0 auto;
+
+}
+#top {
+    color: white;
+}
+#linkTop a{
+    color:  rgb(97, 218, 251);
+}
+#fixed {
+    /* position: fixed; */
+    background-color: rgb(32, 35, 42);
+    height: 10vh;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+#rea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rea img {
+    width: 20px;
+
+}
+#reactLink {
+    color:  rgb(97, 218, 251);
+}
+#glass {
+    width: 12px;
+    /* height: 12px; */
+}
+#myBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1 {
+    color:  rgb(97, 218, 251);
+}
+#myBody p {
+    color: white;
+}
+#get {
+    color: black;
+    background-color:  rgb(97, 218, 251);
+    padding: 10px;
+}
+#get:hover {
+    background-color: white;
+}
+#take {
+    color: rgb(97, 218, 251);
+}
+#take::after {
+    content: ">";
+}
+#take:hover {
+    color: white;
+}
+
+#caption {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+#caption div{
+    font-size: small;
+    width: 29vw;
+}
+h3 {
+    color: rgb(153, 153, 153);
+}
+#linkReact {
+    color: black;
+    background-color: rgb(229, 252, 244);
+    text-decoration: underline rgb(200, 250, 232);
+}
+#linkReact:hover {
+    background-color: rgb(105, 163, 163);
+    text-decoration: underline black;
+}
+#bottom {
+    background-color: rgb(40, 44, 52);
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 110vh;
+}
+#bottomLeft {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 110vh; */
+    width: 60vw
+}
+#bottomLeft p {
+    color: rgb(133, 131, 131);
+    font-size: x-small;
+}
+#bottomLeft span {
+    position: relative;
+    /* bottom: 10px; */
+    /* right: 10px; */
+    top: 17px;
+    left: 17px;
+}
+#bottomLeft span a img {
+    width: 40%;
+}
+#bottomRight {
+    display: flex;
+    flex-wrap: wrap;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 25vw;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    /* padding: 2%; */
+}
+.links a:hover {
+    color:  rgb(97, 218, 251);
+}
+h4 {
+    color: rgb(133, 131, 131);
+}
+.css-6na5q4 {
+    color: rgb(133, 131, 131);
+}

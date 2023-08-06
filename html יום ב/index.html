@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <h1>מידע משתמש</h1>
+    <label>
+       שם:
+       <input type="text" name="name" placeholder="הכנס את שמך" maxlength="50" required/>
+    </label>
+    <br>
+    <label>
+        אימייל:
+        <input type="email" name="email" placeholder="הכנס את כתובת האימיל שלך" required/>
+    </label>
+    <br>
+    <label>
+        סיסמא:
+        <input type="password" name="password" placeholder="הכנס סיסמא" maxlength="8" required/>
+    </label>
+    <br>
+    <label>
+        מין:
+        <!-- <label> -->
+            זכר
+            <input type="radio" name="gender"/>
+            נקבה
+            <input type="radio" name="gender" checked/>
+        <!-- </label> -->
+    </label>
+    <br>
+    <label>
+        מדינה:
+        <select>
+            <option value="usa">ארה"ב</option>
+            <option value="israel">ישראל</option>
+            <option value="fanada">קנדה</option>
+            <option value="england">אנגליה</option>
+        </select>
+    </label>
+    <br>
+    <label>
+        גיל:
+        <input type="number" name="old" required placeholder="18" min="18" max="120"/>
+    </label>  
+    <br>
+    <label>
+        כתובת:
+        <input type="text" name="adress" />
+    </label>
+    <br>
+    <label>
+        טלפון:
+        <input type="tel" name="tel" required maxlength="10" minlength="10"/>
+    </label>
+    <br>
+    <label>
+        תאריך לידה:
+        <input type="date" name="date" />
+    </label>
+    <br>
+    <label>
+        צבע:
+        <input type="color" name="color" placeholder="black" />
+    </label>
+    <br>
+    <label>
+        אני מסכים לתנאי השימוש
+        <input type="checkbox" name="v" />
+    </label>
+    <br>
+    <input type="submit" value="שלח"/>
+</body>
+</html>
