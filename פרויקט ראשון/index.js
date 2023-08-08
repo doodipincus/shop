@@ -241,31 +241,26 @@ topHeder.appendChild(buttons)
 const buttonAll = document.createElement('button')
 buttonAll.innerText = 'All Products'
 buttonAll.classList.add("button-styled")
-buttonAll.name = 'doodi'
 buttons.appendChild(buttonAll)
 
 const buttonMen = document.createElement('button')
 buttonMen.innerText = 'Men'
 buttonMen.classList.add("button-styled")
-buttonMen.name = 'doodi'
 buttons.appendChild(buttonMen)
 
 const buttonWomen = document.createElement('button')
 buttonWomen.innerText = 'Women'
 buttonWomen.classList.add("button-styled")
-buttonWomen.name = 'doodi'
 buttons.appendChild(buttonWomen)
 
 const buttonJewelery = document.createElement('button')
 buttonJewelery.innerText = 'Jewelery'
 buttonJewelery.classList.add("button-styled")
-buttonJewelery.name = 'doodi'
 buttons.appendChild(buttonJewelery)
 
 const buttonElectronics = document.createElement('button')
 buttonElectronics.innerText = 'Electronics'
 buttonElectronics.classList.add("button-styled")
-buttonElectronics.name = 'doodi'
 buttons.appendChild(buttonElectronics)
 
 const totalSearch = document.createElement('span')
@@ -294,6 +289,7 @@ main.appendChild(div1)
 div1.style.display = 'none'
 
 const pageEdit = document.createElement('div')
+pageEdit.id = 'pageEdit'
 main.appendChild(pageEdit)
 pageEdit.style.display = 'none'
 
@@ -500,6 +496,7 @@ function constructorCard(element) {
     deleteIcon.addEventListener('click', () => {
         if (confirm("Delete Product?") === true) {
             deleteIcon.parentElement.parentElement.remove()
+            
         }
     })
 
@@ -517,6 +514,7 @@ function constructorCard(element) {
 // הוספת מוצר
 
 const addProduct = document.createElement('div')
+addProduct.id = 'addProduct'
 main.appendChild(addProduct)
 addProduct.style.display = 'none'
 
@@ -567,6 +565,7 @@ addInputDescription.placeholder = 'Add Description'
 addLabelDescription.appendChild(addInputDescription)
 
 const buttonAdd = document.createElement('button')
+buttonAdd.id = 'buttonAdd'
 buttonAdd.innerText = 'ADD'
 addProduct.appendChild(buttonAdd)
 
@@ -603,6 +602,9 @@ main.appendChild(footer)
 constructor(data)
 
 function constructor(listObject) {
+
+    search.value = ''
+
     homePage.replaceChildren()
     pageEdit.replaceChildren()
     div1.replaceChildren()
@@ -613,7 +615,7 @@ function constructor(listObject) {
     });
 }
 
-function categories(data, category) {
+function categories(category) {
     let listObject = []
     for (let i = 0; i < data.length; i++) {
         if (data[i].category === category) {
@@ -623,45 +625,25 @@ function categories(data, category) {
     constructor(listObject)
 }
 
-const allButtons = document.querySelectorAll('.button-styled')
 buttonAll.addEventListener('click', () => {
-    // allButtons.forEach((elem) =>{
-    //     elem.addEventListener("click", (e)=> {
-    //         e.target.style.backgroundColor = 'blue'
-    //     })
-    // })
-    buttonAll.style.backgroundColor = '#ffdecb'
     constructor(data)
 })
 
 buttonMen.addEventListener('click', () => {
-    // allButtons.style.backgroundColor = '#FFBF9B'
-    buttonMen.style.backgroundColor = '#ffdecb'
-    const category = "men's clothing"
-    categories(data, category)
+    categories("men's clothing")
 })
 
 buttonWomen.addEventListener('click', () => {
-    // allButtons.style.backgroundColor = '#FFBF9B'
-    buttonWomen.style.backgroundColor = '#ffdecb'
-    const category = "women's clothing"
-    categories(data, category)
+    categories("women's clothing")
 })
 
 buttonJewelery.addEventListener('click', () => {
-    // allButtons.style.backgroundColor = '#FFBF9B'
-    buttonJewelery.style.backgroundColor = '#ffdecb'
-    const category = 'jewelery'
-    categories(data, category)
+    categories('jewelery')
 })
 
 buttonElectronics.addEventListener('click', () => {
-    // allButtons.style.backgroundColor = '#FFBF9B'
-    buttonElectronics.style.backgroundColor = '#ffdecb'
-    const category = 'electronics'
-    categories(data, category)
+    categories('electronics')
 })
-
 
 magnifyingGlass.addEventListener('click', () => {
     const searchResults = []
