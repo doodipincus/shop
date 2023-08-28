@@ -30,3 +30,9 @@ button {
 img {
     border-radius: 50%;
 }
+
+/* 
+productPage.style.borderWidth = '2px'
+productPage.style.borderColor = 'black'
+productPage.style.borderStyle = 'dotted'
+productPage.style.borderRadius = '15px' */

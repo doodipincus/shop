@@ -496,7 +496,7 @@ function constructorCard(element) {
     deleteIcon.addEventListener('click', () => {
         if (confirm("Delete Product?") === true) {
             deleteIcon.parentElement.parentElement.remove()
-            
+            data.splice(element, 1)          
         }
     })
 
@@ -611,7 +611,7 @@ function constructor(listObject) {
     addProduct.style.display = 'none'
 
     listObject.forEach(element => {
-        constructorCard(element);
+            constructorCard(element);
     });
 }
 
